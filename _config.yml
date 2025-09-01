@@ -1,0 +1,17 @@
+title: My Jekyll Site
+description: >-
+  A simple site using a remote theme.
+baseurl: "" # leave empty unless hosting in a subdirectory
+url: "https://benmanuel12.github.io"
+
+# Remote theme configuration
+remote_theme: oinam/oinam-jekyll  # e.g. "pages-themes/minimal"
+
+plugins:
+  - jekyll-remote-theme # required for GitHub Pages
+  
+# Optional: exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
